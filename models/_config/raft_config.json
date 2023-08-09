@@ -1,0 +1,6 @@
+{
+"epsilon": 1e-8,
+"small": false,
+"mixed_precision": false,
+"alternate_correlation": false
+}

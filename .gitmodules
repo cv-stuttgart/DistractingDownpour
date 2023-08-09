@@ -1,0 +1,3 @@
+[submodule "flow_library"]
+	path = flow_library
+	url = git@github.com:cv-stuttgart/flow_library.git

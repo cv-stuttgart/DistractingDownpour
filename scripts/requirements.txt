@@ -1,0 +1,18 @@
+# package requirements for SnowAttack
+torch==1.7.1
+torchvision==0.8.2
+matplotlib
+opencv-python
+tqdm
+mlflow
+
+# Additional packages for flow_library:
+--requirement=../flow_library/requirements.txt
+
+# For GMA
+einops
+
+# For FlowFormer
+yacs
+loguru
+timm==0.4.12
