@@ -1,6 +1,6 @@
 # Distracting Downpour
 
-This repository contains the source code for the ICCV'23 paper **Distracting Downpour: Adversarial Weather Attacks for Motion Estimation** by Jenny Schmalfuss, Lukas Mehl and Andrés Bruhn.
+This repository contains the source code for the [ICCV'23 paper](https://arxiv.org/abs/2305.06716) **Distracting Downpour: Adversarial Weather Attacks for Motion Estimation** by Jenny Schmalfuss, Lukas Mehl and Andrés Bruhn.
 If you find this work useful, please cite us as
 
 > @InProceedings{Schmalfuss2023Distracting,<br>
@@ -15,6 +15,14 @@ Our **generated datasets** will be [available here]().
 
 
 # Initial setup
+
+## Cloning the repo
+
+Clone this repository and all its submodules:
+
+```
+git clone --recurse-submodules thisrepository
+```
 
 ## External datasets
 
