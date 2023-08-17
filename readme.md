@@ -11,7 +11,7 @@ If you find this work useful, please cite us as
 > publisher = {IEEE/CVF}<br>
 > }
 
-Our **generated datasets** will be [available here]().
+Our **generated datasets** will be [available here](https://doi.org/10.18419/darus-3677).
 
 
 # Initial setup
@@ -47,7 +47,7 @@ or specify the path and names directly in `helper_functions/config_specs.py`.
 
 ## Reproduction datasets
 
-We will provide all generated weather data and a small sample dataset as [download](). Note that the files are very large (particularly the `_npz` versions of the datasets). We therefore recommend to select what you need.
+We will provide all generated weather data and a small sample dataset as [download](https://doi.org/10.18419/darus-3677). Note that the files are very large (particularly the `_npz` versions of the datasets). We therefore recommend to select what you need.
 
 ## Setup virtual environment
 
@@ -210,7 +210,7 @@ python3 generate_weather.py --weather_tag fog --save_images True --save_weather 
 
 ## Dataset samples - structure
 
-We will provide samples of the rendered augmented images as [download]() for snow (`particles_3000_png`), rain (`rain_1500_png`), sparks (`color_additive_red_png`) and fog (`size_fog_png`) on the first frame pair per sequence from scene market_2 onward, which corresponds to executing the weather generation with `--frame_per_scene 1 --from_scene market_2`.
+We will provide samples of the rendered augmented images as [download](https://doi.org/10.18419/darus-3677) for snow (`particles_3000_png`), rain (`rain_1500_png`), sparks (`color_additive_red_png`) and fog (`size_fog_png`) on the first frame pair per sequence from scene market_2 onward, which corresponds to executing the weather generation with `--frame_per_scene 1 --from_scene market_2`.
 
 ```
 ├── Weather_sampledata
@@ -249,7 +249,7 @@ Here, only the weather data and the network need to be specified:
 Also, use **dataset cropping** arguments from above as needed.
 Logs over all metrics are generated with mlflow (see below), and a summary over the robustness is printed at the evaluation end.
 
-You may test your method with all weather variations from the paper, by downloading the `_png` versions of our [dataset here]().
+You may test your method with all weather variations from the paper, by downloading the `_png` versions of our [dataset here](https://doi.org/10.18419/darus-3677).
 
 
 ## Evaluation with the provided data-samples
@@ -296,7 +296,7 @@ Logs over all metrics are generated with mlflow (see below), and a summary over 
 
 ## Attacking GMA with snow, rain, sparks and fog
 
-Please generate datasets for snow, rain, sparks and fog as described above, or download the full .npz samples. If you [downloaded]() the `npz` samples, replace the `--weather_data` filenames as follows: `weather_snow` by `particles_3000_png`, `weather_rain` by `rain_1500_png`, `weather_sparks` by `color_additive_red_png` and `weather_fog` by `size_fog_png`
+Please generate datasets for snow, rain, sparks and fog as described above, or download the full .npz samples. If you [downloaded](https://doi.org/10.18419/darus-3677) the `npz` samples, replace the `--weather_data` filenames as follows: `weather_snow` by `particles_3000_png`, `weather_rain` by `rain_1500_png`, `weather_sparks` by `color_additive_red_png` and `weather_fog` by `size_fog_png`
 
 Snow:
 ```
